@@ -1,33 +1,3 @@
-/* 
-	* Program Name: Lab 5 - Client
-	* 
-	* Student Name: Phong Nguyen
-	* Semester: Spring 2016
-	* Class-Section: COSC 20203
-	* Instructor: Dr. Rinewalt
-	* 
-	* Program Overview:
-	* 	This program allows user to connect with a server and chat with other users.
-	* User can also use some smileys. Program is made to be convenient so users do not
-	* need to use mouse too often.
-	* 
-	* Input:
-	* 	User name, host address, and port number. User name is created "randomly" by default.
-	* Host is local and port number is 9876 by default.
-	* 
-	* Output:
-	* 	Messages from every one who is connecting with the server.
-	* Image if input has smiley code.
-	* 
-	* Program Limitations:
-	* 	Only one smiley per message can be displayed.
-	* ScrollPanel doesn't display images very well.
-	* GUI is not attractive.
-	* 
-	* Significant Program Variables:
-	* 	Socket, BufferedReader, PrintWriter, Thread.
-*/
-
 import java.awt.*;
 import java.awt.event.*;
 import java.net.*;
